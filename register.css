@@ -1,0 +1,20 @@
+#signupBtn{
+    -fx-background-color: #e94848;
+    -fx-border-radius: 25;
+    -fx-effect: dropshadow(gaussian,#ff0000,10,0,0,10);
+}
+#signupBtn:hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-scale: 1.5;
+}
+#loginBtn{
+    -fx-background-color: #64b5f6;
+    -fx-border-radius: 25;
+    -fx-effect: dropshadow(gaussian,#0000ff,10,0,0,10);
+}
+#loginBtn:hover{
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-scale: 1.5;
+}
