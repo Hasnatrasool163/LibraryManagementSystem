@@ -4,16 +4,18 @@ Welcome to the Library Management System project! 📚✨
 This is a comprehensive JavaFX application designed to manage library operations efficiently. It features user authentication, book and student management, and record keeping—all seamlessly integrated with a MySQL database.
 
 🌟 Features:
-User Authentication: Secure login and registration for admins and librarians.
-Dashboard: Centralized home page for easy navigation.
-Book Management: Add, update, and manage book details.
-Student Management: Track and manage student records.
-Issue & Return Books: Handle book issuance and returns with ease.
-Record Viewing: View records of issued books, defaulters, and more.
+#User Authentication: Secure login and registration for admins and librarians.
+#Dashboard: Centralized home page for easy navigation.
+#Book Management: Add, update, and manage book details.
+#Student Management: Track and manage student records.
+#Issue & Return Books: Handle book issuance and returns with ease.
+#Record Viewing: View records of issued books, defaulters, and more.
+
 🛠️ Technologies Used:
-JavaFX for the user interface.
-MySQL for database management.
-MySQL Workbench for database design and maintenance.
+#JavaFX for the user interface.
+#MySQL for database management.
+#MySQL Workbench for database design and maintenance.
+
 📂 Database Schema:
 Users Table: Stores user credentials.
 Book Details Table: Manages book information.
@@ -22,7 +24,8 @@ Issue Book Details Table: Monitors book issues and returns.
 🚀 Getting Started:
 Clone the Repository:
 
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/Hasnatrasool163/library-management-system.git
+
 Set Up the Database:
 Create a MySQL database named library_ms.
 Execute the provided SQL scripts to set up tables.
