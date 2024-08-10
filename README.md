@@ -24,7 +24,7 @@ Issue Book Details Table: Monitors book issues and returns.
 🚀 Getting Started:
 Clone the Repository:
 
-git clone https://github.com/Hasnatrasool163/library-management-system.git
+git clone https://github.com/Hasnatrasool163/LibraryManagementSystem.git
 
 Set Up the Database:
 Create a MySQL database named library_ms.
