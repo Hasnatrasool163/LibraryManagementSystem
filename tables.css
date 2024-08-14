@@ -1,0 +1,55 @@
+#bookTableView {
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+
+#studentTableView {
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+
+#viewRecordsTable{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+
+#viewIssuedBookTable{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+#defaulterListTable{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+#userTableView{
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 16px;
+    -fx-text-alignment: justify;
+    -fx-background-color: white;
+}
+.table-view {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header {
+    -fx-background-color: #007bff;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .cell:selected {
+    /*-fx-background-color: #07c3e9;*/
+    -fx-background-color: #ff3333;
+}

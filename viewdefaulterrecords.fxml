@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="1000.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.librarymanagementsystem.viewDefaulterRecordsController">
+    <children>
+        <Pane minHeight="600.0" minWidth="1000.0" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Label layoutX="405.0" layoutY="44.0" prefHeight="59.0" prefWidth="251.0" text="  Defaulter  List" textFill="#ff3333">
+                    <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../AddNewBookIcons/icons8_Edit_Property_50px.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="Arial Black" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="367.0" layoutY="115.0" minHeight="5.0" minWidth="310.0" prefHeight="5.0" prefWidth="230.0" style="-fx-background-color: #ff3333;" />
+                <TableView fx:id="defaulterListTable" layoutX="75.0" layoutY="203.0" prefHeight="338.0" prefWidth="861.0" style="-fx-background-color: white;" stylesheets="@tables.css">
+                    <columns>
+                        <TableColumn fx:id="idColumn" prefWidth="74.0" text="Id" />
+                        <TableColumn fx:id="bNameColumn" prefWidth="172.0" text="Book Name" />
+                        <TableColumn fx:id="sNameColumn" prefWidth="171.0" text="Student Name" />
+                        <TableColumn fx:id="issueDateColumn" prefWidth="141.0" text="Issue Date" />
+                        <TableColumn fx:id="dueDateColumn" prefWidth="139.0" text="Due Date" />
+                        <TableColumn fx:id="statusColumn" prefWidth="163.0" text="Status" />
+                    </columns>
+                </TableView>
+            </children>
+        </Pane>
+        <Pane prefHeight="41.0" prefWidth="91.0" style="-fx-background-color: #ff3333;">
+            <children>
+                <Label fx:id="backLblDefaulterList" layoutX="14.0" layoutY="-4.0" onMouseClicked="#moveBack" prefHeight="49.0" prefWidth="97.0" text="Back" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../AddNewBookIcons/icons8_Rewind_48px.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="909.0" prefHeight="49.0" prefWidth="92.0" style="-fx-background-color: #6666ff;">
+            <children>
+                <Label fx:id="closeLbl" alignment="CENTER" layoutX="36.0" layoutY="11.0" onMouseClicked="#close" prefHeight="27.0" prefWidth="24.0" text="X" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
